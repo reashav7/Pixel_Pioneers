@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">AOT</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Faculty</a></li>
+            <li><a href="#">Contact</a></li>
+
+            <div class="search-container">
+                <form action="/search" method="GET">
+                    <input type="text" name="query" class="search-box" placeholder="Enter your search query...">
+                    <button type="submit" class="search-btn">Search</button>
+                </form>
+
+        </ul>
+    </header>
+    <section class="banner"></section>
+
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+</html>
