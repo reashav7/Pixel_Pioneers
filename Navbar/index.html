@@ -3,36 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AOT</title>
+    <title>ACADEMY OF TECHNOLOGY | Engineering collage</title>
     <link rel="stylesheet" href="style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">AOT</a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Academics</a></li>
-            <li><a href="#">Research</a></li>
-            <li><a href="#">Students</a></li>
-            <li><a href="#">Faculty</a></li>
-            <li><a href="#">Contact</a></li>
+    <div class="container">
+        <header>
+            <div class="top-nav">
+                <div class="top-nav-el">
+                    <p class="contact-number">+31-258-98564</p>
+                    <p class="mail">academy@aot.edu.in</p>
+                </div>
+                <div class="top-nav-el">
+                    <p class="afflications">
+                        NIRF | AICTE | MAKAUT | JEEMAIN
+                    </p>
+                    <a href="mailto:m.academy@aot.edu.in" class="cotact-us-nav">CONTACT US</a>
+                </div>
+            </div>
 
-            <div class="search-container">
-                <form action="/search" method="GET">
-                    <input type="text" name="query" class="search-box" placeholder="Enter your search query...">
-                    <button type="submit" class="search-btn">Search</button>
-                </form>
+            <div class="main-nav">
+                <div class="logo">
+                    <img src="Images/aot.png" alt="" width="80px">
+                    <span></span>
+                    <div class="collage-name">
+                        ACADEMY OF TECHNOLOGY
+                    </div>
+                </div>
 
-        </ul>
-    </header>
-    <section class="banner"></section>
+                <div class="main-nav-action">
+                    <div class="search">
+                        <form>
+                            <p>search</p>
+                            <label for="search">
+                                <input type="search" id="search" placeholder="search anything....">
+                            </label>
+                        </form>
+                    </div>
+                    <div class="connect">
+                        <button>CONNECT</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-list">
+                <ul class="menu">
+                    <li class="list-item">option
+                        
+                    </li>
+                    <li class="list-item">option
+
+                    </li>
+                    <li class="list-item">option
+
+                    </li>
+                    <li class="list-item">option
+
+                    </li>
+                    <li class="list-item">option
+
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="content">
+            <div class="hero-section">
+                <img src="Images/Campus 1.jpg" alt="" width="70%">
+            </div>
+            <div class="news">
+                <marquee>
+                    <span>academy of techmnology</span>
+                    <span>academy of techmnology</span>
+                    <span>academy of techmnology</span>
+                    <span>academy of techmnology</span>
+                </marquee>
+            </div>
+
+            <div class="section">
+                <div class="imp-section">
+                    <div class="sub-sec">
+                        <div class="sub-imp-sec"></div>
+                        <div class="sub-imp-sec"></div>
+                        <div class="sub-imp-sec"></div>
+                    </div>
+                    <div class="sub-optn">
+                        <div class="sub-imp-optn"></div>
+                        <div class="sub-imp-optn"></div>
+                        <div class="sub-imp-optn"></div>
+                    </div>
+                </div>
+                <div class="notice"></div>
+            </div>
+
+            <div class="cirtificate">
+                <div class="cir"><!--img hobe--></div> 
+            </div>
+
+        </div>
+
+        
 
 
-    <script type="text/javascript">
-        window.addEventListener("scroll", function(){
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-        })
-    </script>
+            
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
